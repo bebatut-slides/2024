@@ -1,0 +1,6 @@
+title: Slides for 2024 talks - Bérénice Batut
+repository: bebatut-slides/2024
+baseurl: "/2024"
+remote_theme: bebatut-slides/bebatut-slide-theme
+plugins:
+- jekyll-remote-theme
