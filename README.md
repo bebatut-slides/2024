@@ -8,13 +8,8 @@ This repository served the slides for my talks.
 ## Install the requirements
 
 1. Open a Terminal
-2. (If not done yet) Clone the training material GitHub repository:
-
-    ```
-    $ git clone https://github.com/bebatut/2023.git
-    ```
-
-3. Navigate to the `2024/` folder with `cd`
+2. (If not done yet) Clone the GitHub repository:
+3. Navigate to the folder with `cd`
 4. Set up the conda environment:
 
     ```
