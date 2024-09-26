@@ -325,91 +325,133 @@ Note:
 
 ---
 <!-- .slide: data-background-color="#dfcd71" -->
-## How to use Galaxy for Microbiome data analysis?
+## Can Galaxy be useful for Microbiome data analysis?
 
 ![](images/undraw_data_processing_yrrv.svg)<!-- .element width="60%" -->
 
 Note:
 Why Galaxy is a key tool for microbiome data analysis, particularly for its flexibility and interoperability.
 
-----
-
-### 200+ tools
-
-
-
-----
-### Peer-reviewd Workflows
-
-
-
 
 ----
 ### Metabarcoding
 
-- **Tools**: QIIME2, DADA2, Mothur.
-- **Applications**: Taxonomic classification of samples from environmental DNA.
+![](images/metabarcoding.png)<!-- .element width="25%" -->
+
+----
+#### Development and evaluation of a culture-free microbiota profiling platform (MYcrobiota) for clinical diagnostics
+
+![](images/metabarcoding_boers_2018.png)<!-- .element width="45%" -->
+
+
+<small>[Boers et al, European Journal of Clinical Microbiology & Infectious Diseases, 2018](https://link.springer.com/article/10.1007/s10096-018-3220-z)</small>
 
 ----
 
 ### Metagenomics
 
-- **Key Tools**: Metaphlan, Kraken, HUMAnN, Megahit, etc.
-- **Applications**: Identification and quantification of microbial communities, functional analyses.
+![](images/metagenomics.png)<!-- .element width="60%" -->
+
+----
+
+### Metagenomics
 
 Pipeline for metagenomic analysis (from sequence quality to functional annotation).
+
+example: ABRomics
 
 ----
 
 ### Metatranscriptomics
 
-- **Tools**: HISAT2, StringTie, Kallisto.
-- **Applications**: Study of gene expression in microbial communities, identification of active genes in specific environments.
+![](images/metatranscriptomics.png)<!-- .element width="25%" -->
 
-Pipeline for metatranscriptomic analysis (read processing, assembly, annotation).
+----
+
+### ASaiMT?
+
+
+----
+
+### Metagenomics + Metatranscriptomics
+
+
 
 ----
 
 ### Metaproteomics
 
-- **Tools**: Prodigal, MaxQuant.
-- **Applications**: Analysis of proteins expressed by microbial communities.
-
-----
-
-### Meta-omics
-
----
-
-### Examples of Galaxy Applications for Microbiome Analysis**
-   - **Environmental Microbiome Studies**:
-     - Examples of microbiome analysis in specific ecosystems (soil, oceans, etc.).
-   - **Biomedical Research**:
-     - Studies on the gut microbiome and its impact on human health.
-   - **Agriculture and Industry**:
-     - Applications in the study of agricultural and industrial microbiomes.
+![](images/metaproteomics.png)<!-- .element width="20%" -->
 
 
 ----
-**Microbiome-Specific Tutorials**
-- Introduction to metagenomics with Galaxy.
-- Analysis of metatranscriptomic data.
-- Tutorials on metabarcoding with QIIME2.
+#### Metaproteomic Analysis of Nasopharyngeal Swab Samples to Identify Microbial Peptides in COVID-19 Patients
+
+![](images/metaproteomics_bihani_2023_fig1.png)<!-- .element width="40%" -->
+
+<small>[Bahini et al, J Proteome Res, 2023](https://pubs.acs.org/doi/10.1021/acs.jproteome.3c00040)</small>
 
 ----
-Learning pathway
+#### Metaproteomic Analysis of Nasopharyngeal Swab Samples to Identify Microbial Peptides in COVID-19 Patients
+
+![](images/metaproteomics_bihani_2023_fig3.png)<!-- .element width="35%" -->
+
+<small>[Bahini et al, J Proteome Res, 2023](https://pubs.acs.org/doi/10.1021/acs.jproteome.3c00040)</small>
+
+----
+
+### Integrative meta-omics in Galaxy
+
+![](images/metaomics_schiml_2023_fig1.png)<!-- .element width="70%" -->
+
+<small>[Schmiml et al, Environmental Microbiome, 2023](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-023-00514-9)</small>
+
+----
+
+### Integrative meta-omics in Galaxy
+
+![](images/metaomics_schiml_2023_fig2.png)<!-- .element width="45%" -->
+
+<small>[Schmiml et al, Environmental Microbiome, 2023](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-023-00514-9)</small>
+
+Note:
+
+ViMO produces bar plots to visualize the gene counts and abundances of KEGG-pathways in the different bins, here filtered to pathways in energy metabolism. For metagenomics, all timepoints are used, while for metatranscriptomics and metaproteomics, only the first timepoint is shown here and the user can select which sample/timepoint to visualize. In addition, ViMO displays heatmaps with all timepoints within one graph for metatranscriptomics and metaproteomics to visualize temporal changes (data not shown). B ViMO calculates the module completion fraction (mcf) for all KEGG modules (x-axis; only a subset displayed here) and MAGs (y-axis) and thus visualize the metabolic potential of each MAG. The set of visible modules can be filtered to selected KEGG pathways for in-depth exploration
+
+----
+### Galaxy for microbiome data analysis
+
+![](images/microbiome_overview.png)
+
+----
+
+### 200+ tools
+
+![](images/microgalaxy_tool_availability.png)
+
+----
+
+### Peer-reviewd Workflows
+
+
+
+----
+
+### Training Ressources
+
+![](images/microgalaxy_tutorials.png)
 
 ---
 <!-- .slide: data-background-color="#dfcd71" -->
 
-## How is ?????
+## Who is behind?
 
 ![](images/undraw_community_re_cyrm.svg)<!-- .element width="60%" -->
 
 ----
-### microGalaxy: a vibrant community
+### microGalaxy
 
-A community for anything microbiology in Galaxy to
+A microbiology community (**50+ individuals**) with the missions to
 
 - **Develop** and **Sustain** microbial data analysis in Galaxy by coordinating efforts
 - Implement **standardised "best practices"**
@@ -424,18 +466,19 @@ A community for anything microbiology in Galaxy to
 ----
 ### Join microGalaxy
 
-- Join our [**quarterly meetings**](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
-- Join our **working groups** (see above)
-- Join the [Gitter **Chat**](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
-- Join the [**mailing list**](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) microgalaxy@lists.galaxyproject.org
-- Subscribe to the [**calendar**](https://calendar.google.com/calendar/embed?src=npu7puk75n6p0u4aapv5t21uj8%40group.calendar.google.com&ctz=Europe%2FBrussels)
-
+- Quarterly 2-hour meetings
+- 2 working groups
+  - Tool
+  - Paper(s)
+- Chat: galaxyproject/microGalaxy
+- Mailing list: microgalaxy@lists.galaxyproject.org
+- More information: galaxyproject.org/community/sig/microbial/
 
 ---
 
 ### (micro)Galaxy: powerful resources and infrastructures for microbiome data analysis
 
-![](images/microbiome_overview.svg)<!-- .element width="80%" -->
+![](images/microbiome_overview.png)<!-- .element width="80%" -->
 
 Tools, Workflows, Computational Infrastructure, Training, People
 
@@ -444,13 +487,13 @@ Tools, Workflows, Computational Infrastructure, Training, People
 ## Thank You!
 
 IFB logo, etc
-
+microGalaxy community
 
 ---
 
 ### (micro)Galaxy: powerful resources and infrastructures for microbiome data analysis
 
+![](images/microbiome_overview.png)<!-- .element width="80%" -->
 
-
----
+Tools, Workflows, Computational Infrastructure, Training, People
 
