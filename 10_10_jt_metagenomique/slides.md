@@ -1,4 +1,4 @@
-<!-- .slide: data-background="images/index.jpg" data-state="dim-background" -->
+<!-- .slide: data-background="images/title.jpg" data-state="dim-background" -->
 ## Exploring the Microbiome with Galaxy: Tools, Workflows, and Applications
 
 <br>
@@ -10,6 +10,8 @@ Bérénice Batut
 <br>
 
 <small>Journée Thématique "Métagénomique, Microbiome et ADN environnemental" - Groupe de Travail "Statistique et Génomique" - Réseau Interdisciplinaire autour de la Statistique - October 2024</small>
+
+<small style="position: absolute; right: 0%; font-size: 0.2em; ">Photo by [Elena Mozhvilo](https://unsplash.com/@miracleday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) </small>
 
 ---
 <!-- .slide: data-background-color="#dfcd71" -->
@@ -354,11 +356,12 @@ Why Galaxy is a key tool for microbiome data analysis, particularly for its flex
 
 ----
 
-### Metagenomics
+### ASaiM: a Galaxy-based framework to analyze microbiota data
 
-Pipeline for metagenomic analysis (from sequence quality to functional annotation).
+![](images/metagenomics_batut_2018.jpeg)<!-- .element width="90%" -->
 
-example: ABRomics
+
+<small>[Batut et al, GigaScience, 2018](https://academic.oup.com/gigascience/article/7/6/giy057/5001424)</small>
 
 ----
 
@@ -367,13 +370,30 @@ example: ABRomics
 ![](images/metatranscriptomics.png)<!-- .element width="25%" -->
 
 ----
+### Clouds influence the functioning of airborne microorganisms
 
-### ASaiMT?
+![](images/metagenomics_metatranscriptomics_peguilhan_2024_sampling.png)<!-- .element width="100%" -->
 
+- Metagenomics and Metatranscriptomics
+- Top of the Puy de Dôme  (1465m a.s.l.)
+
+<small>[Peguilhan et al, EGUsphere [preprint], 2024](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2338/)</small>
 
 ----
 
-### Metagenomics + Metatranscriptomics
+#### Clouds influence the functioning of airborne microorganisms
+
+![](images/metagenomics_metatranscriptomics_peguilhan_2024_supp_fig1.png)<!-- .element width="50%" -->
+
+<small>[Peguilhan et al, EGUsphere [preprint], 2024](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2338/)</small>
+
+----
+
+#### Clouds influence the functioning of airborne microorganisms
+
+![](images/metagenomics_metatranscriptomics_peguilhan_2024_fig1.png)<!-- .element width="100%" -->
+
+<small>[Peguilhan et al, EGUsphere [preprint], 2024](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2338/)</small>
 
 
 
@@ -425,21 +445,28 @@ ViMO produces bar plots to visualize the gene counts and abundances of KEGG-path
 
 ----
 
-### 200+ tools
+### 200+ community-curated tools for microbial research
 
 ![](images/microgalaxy_tool_availability.png)
 
 ----
 
-### Peer-reviewd Workflows
+### 20+ Ready-to-use workflows
 
+![](images/WorkflowHub_wfs.png) <!-- .element width="60%" -->
 
+[Workflows installable on any Galaxy server](https://workflowhub.eu/workflows?filter%5Btag%5D%5B%5D=Metagenomics&filter%5Btag%5D%5B%5D=bacterial-genomics&filter%5Btag%5D%5B%5D=antimicrobial+resistance&filter%5Btag%5D%5B%5D=ABRomics&filter%5Btag%5D%5B%5D=Virology&filter%5Btag%5D%5B%5D=Virus&filter%5Bworkflow_type%5D=galaxy&order=created_at_desc&table_cols=creators%2Cversion%2Ccreated_at%2Ctags&view=table)
 
 ----
 
-### Training Ressources
+### Comprehensive Training Support
 
 ![](images/microgalaxy_tutorials.png)
+
+----
+### [WIP] Subdomain/Lab on several Galaxy servers
+
+![](images/microgalaxy_lab.png)<!-- .element width="40%" style="box-shadow: 5px 5px 5px grey !important;"  -->
 
 ---
 <!-- .slide: data-background-color="#dfcd71" -->
@@ -461,9 +488,6 @@ A microbiology community (**50+ individuals**) with the missions to
 - Develop and Maintain a Subdomain/Lab on several Galaxy servers
 
 ----
-### microGalaxy: a Subdomain/Lab on several Galaxy servers
-
-----
 ### Join microGalaxy
 
 - Quarterly 2-hour meetings
@@ -472,7 +496,7 @@ A microbiology community (**50+ individuals**) with the missions to
   - Paper(s)
 - Chat: galaxyproject/microGalaxy
 - Mailing list: microgalaxy@lists.galaxyproject.org
-- More information: galaxyproject.org/community/sig/microbial/
+- More information: [galaxyproject.org/community/sig/microbial/](https://galaxyproject.org/community/sig/microbial/)
 
 ---
 
@@ -486,8 +510,29 @@ Tools, Workflows, Computational Infrastructure, Training, People
 
 ## Thank You!
 
-IFB logo, etc
-microGalaxy community
+![](images/microgalaxy-logo.png) <!-- .element width="20%" -->
+
+The microGalaxy community!
+
+<div class="left_column" style="width:20%;">
+
+![](images/ifb.png) <!-- .element width="100%" -->
+ 
+</div>
+
+<div class="right_column" style="width:20%;">
+
+![](images/aubi.jpg) <!-- .element width="100%" -->
+
+</div>
+
+
+<div style="float: inline-start ;width:20%;">
+
+![](images/france_2030.png) <!-- .element width="60%" -->
+
+</div>
+
 
 ---
 
